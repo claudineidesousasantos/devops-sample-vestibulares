@@ -67,7 +67,7 @@ def cursos(request):
         'app/cursos.html',
         context_instance = RequestContext(request,
         {
-            'title':'Cadastro de cursos',
+            'title':'Cursos',
             'cursos': ['ADS' , 'Sistema de Informação', 'Administração'],
             'year':datetime.now().year,
         })
